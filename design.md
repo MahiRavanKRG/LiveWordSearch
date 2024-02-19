@@ -15,5 +15,9 @@ Plan to solve the problem
 
 ## Updates 
 
-I am currently on the part 4, have faced certain setbacks.
-I'll talk about them later.
+I have finished the skeleton/bare-minimum/Pototype and it works as an exe. 
+Currently trying to make it into a chrome extention.
+
+## Design
+
+I don't have to cover Design in detail as only app1.py is the complete application, it has been refined from RefinedBasicLogicWithoutInternet.py and has all the things it needs to run. Other files are just testing files that I learned form and made tests on.
