@@ -9,8 +9,13 @@ def on_key_release(event, input_string=[], url = "https://www.google.com/search?
         url = url.replace("ENTER_WORD_HERE", passing_string) # replacing the placeholder with the input string
         print(f"The input sting is {passing_string} \nLooking on Chrome...") # CMD evidence of the input string
         webbrowser.open(url) # opening the url in the default browser
-    elif event.name in ["esc", "alt", "ctrl", "shift"]: # keeps the input_string unpolluted
+    
+    elif event.name in ["esc", "alt", "ctrl", "shift", "enter", "tab", "delete",  #control keys
+                        "left", "right", "up", "down", "backspace", "home", "end", #navigation keys
+                        "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:  #number keys
+        # keeps the input_string unpolluted
         pass
+    
     else:    
         input_string += str(event.name) # adding the input character to the list
         print(f"Key {event.name} released") # CMD evidence of the key press

@@ -9,8 +9,15 @@ def on_key_release(event, input_string=[]):  # the event is used to handle the k
         input_string.clear() # clearing the list for the next input
         print(f"The input sting is {passing_string} \nLooking on PyDictionary...") # CMD evidence of the input string
         dictionary = PyDictionary.PyDictionary()
-        print(dictionary.meaning(passing_string)['Noun'])
-    elif event.name in ["esc", "alt", "ctrl", "shift", "enter", "tab", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]: # keeps the input_string unpolluted
+        try:
+            print(dictionary.meaning(passing_string)['Noun']) # looking for the meaning of the word
+        except:
+            print(f"No meaning found for {passing_string}")
+            
+    elif event.name in ["esc", "alt", "ctrl", "shift", "enter", "tab", "delete",  #control keys
+                        "left", "right", "up", "down", "backspace", "home", "end", #navigation keys
+                        "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:  #number keys
+        # keeps the input_string unpolluted
         pass
 
     else:    
