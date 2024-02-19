@@ -15,5 +15,8 @@ Plan to solve the problem
 
 ## Updates 
 
-I am currently on the part 4, have faced certain setbacks.
-I'll talk about them later.
+I am currently on this branch, I need to convert this python offline (exe) project into a google chrome extension, so that it can fulfill its intended use.
+
+## Design
+
+I don't have to cover Design in detail as only app1.py is the complete application, it has been refined from RefinedBasicLogicWithoutInternet.py and has all the things it needs to run. Other files are just testing files that I learned form and made tests on.
