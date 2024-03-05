@@ -3,7 +3,7 @@
 
 This project is quiet simple, whenever running this project will listen to your current keyboard inputs, whenever your spacebar whatever sequece of words you have typed will be considered one word and will be searched on the internet.
 
-## Usage
+## Installation
 1️⃣ You can directly copy this app1.py file and run in your command line
 
 2️⃣ To run as an application go to dist to download [app.exe]([url](https://github.com/MahiRavanKRG/LiveWordSearch/blob/main/dist/app1.exe#:~:text=dist-,app1.exe,-source%20code)) file, this behaves like any other application on the windows
