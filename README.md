@@ -1,5 +1,6 @@
 ## LiveWordSearch - Graphics Branch
-### This branch focuses on the Logic used in this project only.
+### This branch focuses on the Graphics used in this project only.
+# before fixing or starting to work on this branch fix the readme of main branch or design, or the branch itself.
 
 This project is quiet simple, whenever running this project will listen to your current keyboard inputs, whenever your spacebar whatever sequece of words you have typed will be considered one word and will be searched on the internet.
 
