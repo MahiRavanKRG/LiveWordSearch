@@ -1,4 +1,4 @@
-## LiveWordSearch - Logic Branch
+## LiveWordSearch - Graphics Branch
 ### This branch focuses on the Logic used in this project only.
 
 This project is quiet simple, whenever running this project will listen to your current keyboard inputs, whenever your spacebar whatever sequece of words you have typed will be considered one word and will be searched on the internet.
