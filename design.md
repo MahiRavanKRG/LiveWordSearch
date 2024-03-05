@@ -1,4 +1,4 @@
-# "Every line of code and every train of thought contributes to software design"
+# "Every line of code and Every train of thought contributes to software design"
 
 #### Problem: 
 I want to know the meaning of the word that I am seeing/typing on monkey type.
@@ -24,12 +24,12 @@ I don't have to cover Design in detail as only app1.py is the complete applicati
 
 ##### app1.py
 This is the functional component of the current branch. This is derived from the file RefinedBasicLogicWithoutInternet.py
-> has the current logic made into a deployable piece of code.
+> This file Has the current logic converted into a deployable piece of code.
 
 ##### basicLogic.py
-This is the first and implements the functionality of searching the word on internet.
+This is the first and implements the functionality of searching the word on the internet.
 > was used as the proof of concept for the Idea, 
-> Implements the logic of how to use python to solve the problem stated
+> Implements the logic of how to use Python to solve the problem stated
 
 ##### design.md
 THIS FILE
@@ -47,5 +47,5 @@ This file is for learning about PIdictionary and its uses
 Provides information about this branch and its status at a glance
 
 ##### RefinedBasicLogicWithoutInternet.py
-This file is derived from "basicLogic.py" file and implements the thought-process/algorithm on offline-ish manner it uses pictionoary python package to make the whole solution local and independent of internet.
+This file is derived from the "basicLogic.py" file and implements the thought-process/algorithm in an offline-ish manner it uses pictionoary Python package to make the whole solution local and independent of the internet.
 > This changes certain lines of code to make the word search offline.
