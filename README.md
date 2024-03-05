@@ -3,7 +3,7 @@
 
 This project is quiet simple, whenever running this project will listen to your current keyboard inputs, whenever your spacebar whatever sequece of words you have typed will be considered one word and will be searched on the internet.
 
-Thought Process
+Thought-Process/Algorithm
 1. Listen to the keyboard keys pressed
 2. Make the inputs into a word
 3. Search the defination of this word
@@ -22,4 +22,4 @@ This branch is rather Empty, as We don't need all the files here only the ones t
 
 ### Result
 Currently Exploreing to make the UI richer by giving it a more useful make over.
-This has been successfully converted into a command-line Interface like application, that works 100% offline. However, its full of bugs and barely reliable. This works so Currently I should focus on GUI
+This has been successfully converted into a command-line Interface like application, that works 100% offline. However, its full of bugs and barely reliable. This works so Currently I should focus on GUI [GUI-BRANCH].
